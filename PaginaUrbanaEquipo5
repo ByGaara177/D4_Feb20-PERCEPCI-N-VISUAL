@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo 5 - Diseño de Interfaces</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: auto;
+        }
+        .contenedor {
+            width: 80%;
+            max-width: 1170px;
+            background-color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+        .barra-superior {
+            width: 100%;
+            background-color: #444;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .imagen-container {
+            width: 100%;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+        .imagen-container img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="barra-superior">
+            Equipo 5 - Diseño de Interfaces de Usuario - 3NM31
+        </div>
+        <div class="imagen-container">
+            <img src="FotoUrbanaDux.jpeg" alt="Imagen del equipo">
+        </div>
+    </div>
+</body>
+</html>
